@@ -1,0 +1,22 @@
+{
+  "name": "prac20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2",
+    "axios": "^0.27.2",
+    "bull": "^4.8.5",
+    "dotenv": "^16.0.1",
+    "ioredis": "^5.2.2",
+    "node-cron": "^3.0.1",
+    "redis": "^4.2.0",
+    "sparkpost": "^2.1.4"
+  }
+}
